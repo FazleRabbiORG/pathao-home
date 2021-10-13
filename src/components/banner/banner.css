@@ -1,0 +1,59 @@
+.bg-image {
+    background-size: 100% auto;
+  background-image: url(https://pathao.com/bn/wp-content/uploads/sites/6/2018/12/01-home.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.banner-top .bg-image {
+  background-size: 100% auto;
+}
+.banner-content {
+  margin: 85px 0;
+}
+.banner-content h2 {
+  font-size: 55px;
+  color: #262626;
+  line-height: 65px;
+  /* margin: 50px 0 14px 0; */
+  text-transform: none;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.banner-content p {
+  font-size: 20px;
+  color: #293a4e;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin: 0 0 95px 0;
+  text-transform: none;
+}
+
+.btn-solid {
+  width: auto;
+  height: 60px;
+  margin: 10px;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: left;
+  padding: 0 30px;
+  display: inline-block;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  border: none;
+}
+
+.bannerBtn1 {
+  background-color: #e83330;
+}
+
+.bannerBtn2 {
+  background-color: #fff;
+  border: 1px solid #d0d8dc;
+  color: black;
+}
+.btn-solid:hover {
+  background-color: #d41d1a;
+}

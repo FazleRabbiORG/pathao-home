@@ -1,0 +1,9 @@
+.platformbg{
+    background-image: url(https://pathao.com/bn/wp-content/themes/webpathao/assets/images/mobile-screen-2.png);
+    position:relative;
+}
+
+.pbg{
+    margin: 60px 0 0px 33px;
+    border-radius: 20px 20px 0 0;
+}

@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+.app{
+  font-family: 'SolaimanLipiRegular';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  font-size: 46px;
+  font-weight: 500;
+  color: black;
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-solid-link{
+  display: block;
+  height: 43px;
+  line-height: 43px;
+  width: 186px;
+  font-size: 16px;
+  padding: 0 30px;
 }

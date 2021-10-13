@@ -1,0 +1,52 @@
+
+.bannerFact{
+height:100px;
+}
+
+.fact{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 18%);
+    padding: 30px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+
+.fact-item1{
+    border-right: 1px solid gainsboro;
+}
+.fact-item2{
+    border-right: 1px solid gainsboro;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .fact-item1{
+        border-right: none;
+        border-bottom: 1px solid gainsboro;
+    }
+    .fact-item2{
+        border-right: none;
+        border-bottom: 1px solid gainsboro;
+        margin: 20px 0;
+    }
+}   
+
+
+.fact-item1 .fact-item2 .fact-item3{
+    text-align: center;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-item1 .fact-item2{
+    border-right: 1px solid gainsboro;
+}
